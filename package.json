@@ -1,7 +1,7 @@
 {
   "name": "slack-traductor",
   "version": "1.0.0",
-  "description": "Slack bot to translate chat messages in any languages into English",
+  "description": "Slack bot to translate chat messages of any language into English",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node index.js",
