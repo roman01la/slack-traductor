@@ -10,7 +10,9 @@ Because we are an international team and sometimes I don't understand what they 
 ## Usage
 
 Traductor is using Microsoft Translator API, because it's free 😅
+
 Get Translator API account: https://datamarket.azure.com/dataset/bing/microsofttranslator
+
 Create `.env` file and put the following env vars inside:
 
 ```
