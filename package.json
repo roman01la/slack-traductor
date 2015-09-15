@@ -1,0 +1,26 @@
+{
+  "name": "slack-traductor",
+  "version": "1.0.0",
+  "description": "Slack bot to translate chat messages in any languages into English",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "start": "babel-node index.js"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "translate"
+  ],
+  "author": "Roman Liutikov <roman@redradix.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "dotenv": "^1.2.0",
+    "request": "^2.62.0",
+    "slackbots": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.5.0"
+  }
+}
