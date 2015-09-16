@@ -20,7 +20,14 @@ BOT_NAME=bot_name
 BOT_TOKEN=bot_token
 CLIENT_ID=microsofttranslator_client_id
 CLIENT_SECRET=microsofttranslator_client_secret
+TRANSLATE_TO=en
+ADD_MESSAGE=message_to_append
+SUSPEND_TIMEOUT=600000
 ```
+
+TRANSLATE_TO — translate messages to specified lan, check lang codes in `lib/lang_codes.js`
+ADD_MESSAGE — specify the message you want to add to every translation, check the screenshot above.
+SUSPEND_TIMEOUT — the time period in ms while the bot will not translate messages
 
 ```
 $ npm i
@@ -33,6 +40,6 @@ Running as daemon with [pm2](https://github.com/Unitech/pm2)
 $ pm2 start index.js --next-gen-js --name "traductor"
 ```
 
-## Commands
+### Commands
 
 `@traductor: stop` — suspend the bot for 10 minutes in current channel/group
