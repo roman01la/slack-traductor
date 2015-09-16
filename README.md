@@ -25,9 +25,9 @@ ADD_MESSAGE=message_to_append
 SUSPEND_TIMEOUT=600000
 ```
 
-TRANSLATE_TO — translate messages to specified lan, check lang codes in `lib/lang_codes.js`
-ADD_MESSAGE — specify the message you want to add to every translation, check the screenshot above.
-SUSPEND_TIMEOUT — the time period in ms while the bot will not translate messages
+- TRANSLATE_TO — translate messages to specified lan, check lang codes in `lib/lang_codes.js`
+- ADD_MESSAGE — specify the message you want to add to every translation, check the screenshot above.
+- SUSPEND_TIMEOUT — the time period in ms while the bot will not translate messages
 
 ```
 $ npm i
