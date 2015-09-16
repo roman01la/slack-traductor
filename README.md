@@ -1,5 +1,5 @@
 # slack-traductor
-Slack bot to translate chat messages of any language into English
+Slack bot to translate chat messages of any language into specified language
 
 ![example](example.png)
 
