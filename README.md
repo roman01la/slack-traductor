@@ -27,6 +27,12 @@ $ npm i
 $ npm start
 ```
 
+Running as daemon with [pm2](https://github.com/Unitech/pm2)
+
+```
+$ pm2 start index.js --next-gen-js --name "traductor"
+```
+
 ## Commands
 
 `@traductor: stop` — suspend the bot for 10 minutes in current channel/group
