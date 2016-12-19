@@ -18,6 +18,7 @@ Traductor is using Microsoft Translator API, because it's free 😅
   ```
   BOT_NAME=slack_bot_name
   BOT_TOKEN=slack_bot_token
+  BOT_AS_USER=1
   CLIENT_ID=microsoft_translator_client_id
   CLIENT_SECRET=microsoft_translator_client_secret
   TRANSLATE_TO=en
@@ -27,6 +28,7 @@ Traductor is using Microsoft Translator API, because it's free 😅
 
   - BOT_NAME — bot name given when you create a bot
   - BOT_TOKEN — a token which you will receive after creating a bot
+  - BOT_AS_USER — pass true to post the message as the authed user
   - CLIENT_ID — take it from your Translator API account
   - CLIENT_SECRET — take it from your Translator API account
   - TRANSLATE_TO — translate messages to specified language, check lang codes in `lib/lang_codes.js`
